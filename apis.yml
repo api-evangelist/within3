@@ -1,8 +1,25 @@
 aid: within3
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/within3.png
 name: Within3
-description: 'Within3 is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Within3 is a life sciences engagement and insights-management platform used
+  by pharmaceutical, biotechnology, and medical device companies to run virtual advisory
+  boards, engage key opinion leaders and healthcare professionals, and collect, structure,
+  and analyze scientific and medical insights across the product lifecycle. The company
+  emphasizes AI-assisted insights management and secure, compliant stakeholder engagement.
+  This API Evangelist profile was surfaced as an Insight Partners portfolio company; an
+  enrichment pass found no public developer/API surface (no API, docs, or developer
+  subdomains resolve and no /.well-known discovery documents are served).'
 url: https://raw.githubusercontent.com/api-evangelist/within3/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Life Sciences
+- Medical Affairs
+- Insights Management
+- Virtual Engagement
+- Pharmaceutical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.within3.com/
+- type: Blog
+  url: https://www.within3.com/blog
+- type: PrivacyPolicy
+  url: https://www.within3.com/privacy-policy
+- type: TermsOfService
+  url: https://www.within3.com/terms-of-use
+- type: DomainSecurity
+  url: security/within3-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
